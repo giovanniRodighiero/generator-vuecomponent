@@ -1,6 +1,6 @@
 {
   "name": "generator-vuecomponent",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vue.js components generator for fast scaffolding",
   "main": "index.js",
   "scripts": {
