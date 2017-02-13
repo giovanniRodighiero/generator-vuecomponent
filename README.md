@@ -32,8 +32,8 @@ Otherwise it will be used the same structure without the `src="..."` option.
 
 * __The name of the component in lowecase__:  straightforward
 
-* __Extension of the template engine you're using (default to normal HTML)__:
+* __Extension of the template engine you're using (default to standard HTML)__:
 For example if you are using pug it is __pug__, for Nunjucks it is __njk__.
 Avoid the dot ".", type just the extension.
 
-* __Extension of the style language you're using (default to normal css)__: just like for the html template, note that for __sass__ language, the option `?indentedSyntax` will automatically be added.
+* __Extension of the style language you're using (default to standard css)__: just like for the html template, note that for __sass__ language, the option `?indentedSyntax` will automatically be added.

@@ -12,14 +12,14 @@ const componentName = {
 const htmlLang = {
   type: 'input',
   name: 'htmlLang',
-  message: 'Template engine to use (default to normal HTML)',
+  message: 'Extension of the template engine you\'re using (default to standard HTML)',
   default: 'html',
 };
 
 const styleLang = {
   type: 'input',
   name: 'styleLang',
-  message: 'Style language to use (default to normal css)',
+  message: 'Extension of the style language you\'re using (default to standard css)__',
   default: 'css',
 };
 
