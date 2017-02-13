@@ -1,7 +1,7 @@
 {
   "name": "generator-vuecomponent",
   "version": "1.0.0",
-  "description": "",
+  "description": "Vue.js components generator for fast scaffolding",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +12,8 @@
   "keywords": [
     "vuejs",
     "component",
-    "generator"
+    "generator",
+    "yeoman-generator"
   ],
   "author": "Giovanni Rodighiero",
   "license": "MIT",
