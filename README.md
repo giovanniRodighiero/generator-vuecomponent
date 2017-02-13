@@ -5,6 +5,9 @@ This yeoman generator speeds up the creation of Vue.js components, especially in
 ## Dependencies
 * yeoman generator => `npm install -g yo`
 
+## Install
+`$ npm install -g generator-vuecomponent`
+
 ## Usage
 `$ yo vuecomponent`
 
