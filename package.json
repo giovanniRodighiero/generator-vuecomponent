@@ -1,0 +1,22 @@
+{
+  "name": "generator-vuecomponent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+   "generators"
+  ],
+  "keywords": [
+    "vuejs",
+    "component",
+    "generator"
+  ],
+  "author": "Giovanni Rodighiero",
+  "license": "MIT",
+  "dependencies": {
+    "yeoman-generator": "^1.1.0"
+  }
+}

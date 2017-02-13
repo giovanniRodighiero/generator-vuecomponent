@@ -1,0 +1,51 @@
+<% if (!splitted) {%>
+
+<% if (htmlLang === 'html') { %>
+<template>
+<% } else { %>
+<template lang="<%= htmlLang %>">
+<% } %>
+</template>
+
+
+<script>
+
+  export default {
+
+  }
+
+</script>
+
+<% if (styleLang === 'css') { %>
+<style>
+<% } else { %>
+<% if (styleLang === 'sass') { %>
+<style lang="<%= styleLang %>?indentedSyntax">
+<% } else { %>
+<style lang="<%= styleLang %>">
+<% } %>
+<% } %>
+</style>
+
+<% } else { %>
+
+<% if (htmlLang === 'html') { %>
+<template src="./<%= componentName %>.<%= htmlLang %>"></template>
+<% } else { %>
+<template src="./<%= componentName %>.<%= htmlLang %>" lang="<%= htmlLang %>"></template>
+<% } %>
+
+<script src="./<%= componentName %>.js"></script>
+
+<% if (styleLang === 'css') { %>
+<style src="./<%= componentName %>.<%= styleLang %>"></style>
+<% } else { %>
+<% if (styleLang === 'sass') { %>
+<style src="./<%= componentName %>.<%= styleLang %>" lang="<%= styleLang %>?indentedSyntax"></style>
+<% } else { %>
+<style src="./<%= componentName %>.<%= styleLang %>" lang="<%= styleLang %>"></style>
+<% } %>
+<% } %>
+
+
+<% } %>
